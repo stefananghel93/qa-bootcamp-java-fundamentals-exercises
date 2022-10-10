@@ -2,13 +2,13 @@ package com.qa.java.exercises;
 
 public class Product {
 
-	int id;
-	String name;
-	float price;
-	String category;
-	float rating;
-	float discountPercentage;
-	boolean isAvailable;
+	public int id;
+	public String name;
+	public float price;
+	public String category;
+	public float rating;
+	public float discountPercentage;
+	public boolean isAvailable;
 
 	
 	public Product(int id, String name, float price, String category, float rating, float discountPercentage,
@@ -21,6 +21,9 @@ public class Product {
 		this.discountPercentage = discountPercentage;
 		this.isAvailable = isAvailable;
 	}
+
+
+	
 	
 
 	

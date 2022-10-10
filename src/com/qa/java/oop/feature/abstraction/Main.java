@@ -1,4 +1,4 @@
-package com.qa.java.oop.feature.inheritance;
+package com.qa.java.oop.feature.abstraction;
 
 public class Main {
 
@@ -6,14 +6,13 @@ public class Main {
 		
 		Audi audi = new Audi(123, "Audi", 45.999, 2995, "Petrol" , 2022 , "A3 Sallon", true);
 		
-		audi.displayAudiCarInfo();
+		CarService.displayCarInfo(audi);
 		
 		System.out.println();
 		
-		BMW bmw = new BMW(223, "BMW", 29.999, 1995, "Diesel", 2019, 4 , 5000);
-		
-		bmw.displayBmwCarInfo();
-	
+//		BMW bmw = new BMW(223, "BMW", 29.999, 1995, "Diesel", 2019, 4 , 5000);
+//		
+//		CarService.displayCarInfo(bmw);
 	
 	
 	

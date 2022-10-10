@@ -1,4 +1,4 @@
-package com.qa.java.oop.feature.inheritance;
+package com.qa.java.oop.feature.polymorphism;
 
 public class Main {
 
